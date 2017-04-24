@@ -11,7 +11,7 @@ Str='"this is test string"'
 print Str;
 print Str[2:];
 print Str*2;
-print Str+'Nakul';
+print Str+'Nakull';
 
 ##List
 list=['nakul', 78, 'Ankit',45];
