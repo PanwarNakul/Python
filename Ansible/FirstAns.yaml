@@ -1,0 +1,6 @@
+---
+host: CVM
+- name: update the system
+    yum:
+      name: "cups"
+      state: latest
