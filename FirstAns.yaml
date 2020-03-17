@@ -1,6 +1,7 @@
----
+--- 
 hosts: CVM
-- name: install printing pacakges
-    yum:
-      name: "cups"
-      state: latest
+tasks: 
+  name: "install printing pacakges"
+  yum: 
+    name: cups
+    state: latest
